@@ -1,27 +1,30 @@
 [tool.poetry]
 name = "DigitalPy"
-version = "0.3.16"
-description="A python implementation of the aphrodite's specification, heavily based on WCMF"
+version = "0.3.17"
+description = "A python implementation of the aphrodite's specification, heavily based on WCMF"
 authors = ["FreeTAKTeam <FreeTakTeam@gmail.com>"]
-packages = [
-    {include = "digitalpy"}
-    ]
-include = ["digitalpy/**/*.json", "digitalpy/**/*.py", "digitalpy/**/*.ini", "digitalpy/**/*.conf"]
+packages = [{ include = "digitalpy" }]
+include = [
+    "digitalpy/**/*.json",
+    "digitalpy/**/*.py",
+    "digitalpy/**/*.ini",
+    "digitalpy/**/*.conf",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-setuptools="*"
-rule-engine="*"
-'ruamel.yaml'="*"
-pyzmq="*"
-opentelemetry-sdk="*"
-lxml="*"
-xmltodict="*"
-flask_cors="*"
-sqlalchemy="^2.0.30"
-flask_jwt_extended="*"
-requests="*"
-psutil="*"
+setuptools = "*"
+rule-engine = "*"
+'ruamel.yaml' = "*"
+pyzmq = "*"
+opentelemetry-sdk = "*"
+lxml = "*"
+xmltodict = "*"
+flask_cors = "*"
+sqlalchemy = "^2.0.30"
+flask_jwt_extended = "*"
+requests = "*"
+psutil = "*"
 rns = "^0.9.2"
 lxmf = "^0.6.2"
 
